@@ -3,7 +3,7 @@
  * Update `siteConfig.url` before deploying to production.
  */
 export const siteConfig = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://pairoj.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://pairoj.com",
   shortName: "Pairoj",
   title: "ไพโรจน์ (Pairoj) — นักพัฒนา PHP, AI Automation & Security",
   description:
