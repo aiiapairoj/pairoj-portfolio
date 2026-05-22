@@ -5,9 +5,9 @@
 export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://pairoj.com",
   shortName: "Pairoj",
-  title: "ไพโรจน์ (Pairoj) — นักพัฒนา PHP, AI Automation & Security",
+  title: "ไพโรจน์ — นักพัฒนา PHP, AI Automation & Security",
   description:
-    "พอร์ตโฟลิโอส่วนตัวของไพโรจน์ — นักพัฒนาเว็บ PHP, AI Automation, และความปลอดภัยไซเบอร์ในประเทศไทย รวม 29 โปรเจกต์โอเพนซอร์สจาก GitHub",
+    "ผมชื่อไพโรจน์ — นักพัฒนาเว็บ PHP, AI Automation, และความปลอดภัยไซเบอร์ในประเทศไทย รวม 29 โปรเจกต์โอเพนซอร์สจาก GitHub",
   keywords: [
     "Pairoj",
     "ไพโรจน์",
@@ -23,7 +23,7 @@ export const siteConfig = {
     "Web Development",
   ],
   author: {
-    name: "ไพโรจน์ (Pairoj)",
+    name: "ไพโรจน์",
     email: "pairoj.vrh@gmail.com",
     github: "https://github.com/aiiapairoj",
   },

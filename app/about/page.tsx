@@ -10,7 +10,7 @@ import { getAllRepos, getLanguageStats } from "@/lib/github";
 export const metadata = buildMetadata({
   title: "เกี่ยวกับไพโรจน์ — นักพัฒนาเว็บและ AI Automation",
   description:
-    "ไพโรจน์ (Pairoj) นักพัฒนาเว็บ PHP/Next.js และ AI Automation engineer ในประเทศไทย — ประวัติ ทักษะ ปรัชญาการทำงาน และคำถามที่พบบ่อย",
+    "ผมชื่อไพโรจน์ นักพัฒนาเว็บ PHP/Next.js และ AI Automation engineer ในประเทศไทย — ประวัติ ทักษะ ปรัชญาการทำงาน และคำถามที่พบบ่อย",
   path: "/about/",
 });
 
@@ -18,20 +18,20 @@ const faqs = [
   {
     question: "ไพโรจน์คือใคร?",
     answer:
-      "ไพโรจน์ (Pairoj, GitHub: aiiapairoj) เป็นนักพัฒนาเว็บแอปและ AI Automation engineer ในประเทศไทย เน้นการสร้างระบบหลังบ้านด้วย PHP/MySQL และ Next.js ที่ปลอดภัยตามมาตรฐาน OWASP มีผลงานโอเพนซอร์ส 29 โปรเจกต์เผยแพร่ที่ github.com/aiiapairoj",
+      "ผมชื่อไพโรจน์ (GitHub: aiiapairoj) เป็นนักพัฒนาเว็บแอปและ AI Automation engineer ในประเทศไทย เน้นสร้างระบบหลังบ้านด้วย PHP/MySQL และ Next.js ที่ปลอดภัยตามมาตรฐาน OWASP มีผลงานโอเพนซอร์ส 29 โปรเจกต์ที่ github.com/aiiapairoj",
   },
   {
-    question: "ไพโรจน์เชี่ยวชาญด้านใดบ้าง?",
+    question: "ผมเชี่ยวชาญด้านใดบ้าง?",
     answer:
-      "PHP/MySQL backend, Next.js/TypeScript frontend, AI Automation ผ่าน Claude Code/n8n/Make, ความปลอดภัยเว็บตาม OWASP Top 10 และ Agentic Skills Top 10, การออกแบบฐานข้อมูล และการเขียนสคริปต์ automation บน Windows ด้วย PowerShell",
+      "PHP/MySQL backend, Next.js/TypeScript frontend, AI Automation ผ่าน Claude Code/n8n/Make, ความปลอดภัยเว็บตาม OWASP Top 10 และ Agentic Skills Top 10, การออกแบบฐานข้อมูล และการเขียน automation script บน Windows ด้วย PowerShell",
   },
   {
-    question: "ผลงานหลักของไพโรจน์มีอะไรบ้าง?",
+    question: "ผลงานหลักมีอะไรบ้าง?",
     answer:
       "ระบบ Sales CRM, Service Desk (IT Ticket), School SMS, ระบบ Check-in พนักงาน, Security Checklist, Subscription Manager (SubTraker), และ AI Memory Framework (Personal-AI-Memory และ Oracle Starter Kit) ดูรายการเต็มได้ที่หน้าโปรเจกต์",
   },
   {
-    question: "ติดต่อไพโรจน์ได้อย่างไร?",
+    question: "ติดต่อผมได้อย่างไร?",
     answer: `อีเมล ${siteConfig.author.email} หรือผ่าน GitHub ${siteConfig.author.github}`,
   },
   {
@@ -58,18 +58,18 @@ export default function AboutPage() {
 
       <header>
         <p className="text-sm text-blue-600 font-medium">เกี่ยวกับผู้เขียน</p>
-        <h1 className="mt-2 text-4xl font-bold tracking-tight">ไพโรจน์ (Pairoj)</h1>
+        <h1 className="mt-2 text-4xl font-bold tracking-tight">ไพโรจน์</h1>
         <p className="mt-3 text-lg text-neutral-700 dark:text-neutral-300">
-          นักพัฒนาเว็บแอปและ AI Automation engineer ในประเทศไทย — เน้น PHP, Next.js, ความปลอดภัย, และ AI workflow.
+          ผมเป็นนักพัฒนาเว็บแอปและ AI Automation engineer ในประเทศไทย — เน้น PHP, Next.js, ความปลอดภัย, และ AI workflow
         </p>
       </header>
 
       <section aria-labelledby="bio" className="prose-th mt-10">
         <h2 id="bio">ประวัติย่อ</h2>
         <p>
-          สรุปสั้น: ผมเป็นนักพัฒนาเว็บที่ทำงานกับ PHP มาหลายปี กำลังขยายไปทาง AI Automation และ Cyber Security
+          ผมชื่อไพโรจน์ — นักพัฒนาเว็บที่ทำงานกับ PHP มาหลายปี กำลังขยายไปทาง AI Automation และ Cyber Security
           ปัจจุบันมีผลงานโอเพนซอร์ส {totalRepos} โปรเจกต์บน GitHub ครอบคลุมตั้งแต่ระบบหลังบ้าน CRM,
-          ระบบ Service Desk, ระบบจัดการการเข้างาน, ไปจนถึง security scorecard และ AI memory framework.
+          ระบบ Service Desk, ระบบจัดการการเข้างาน, ไปจนถึง security scorecard และ AI memory framework
         </p>
         <p>
           ผมเชื่อว่าโค้ดที่ดีต้อง <strong>เข้าใจง่าย</strong> <strong>ปลอดภัย</strong> และ <strong>วัดผลได้</strong>

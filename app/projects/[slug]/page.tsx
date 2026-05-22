@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   if (!repo) return {};
   const desc = (repo.description || repo.readmeSummary.slice(0, 160) || repo.name).slice(0, 200);
   return buildMetadata({
-    title: `${repo.name} — โปรเจกต์ของไพโรจน์`,
+    title: `${repo.name} — ผลงานของไพโรจน์`,
     description: desc,
     path: `/projects/${repo.slug}/`,
   });

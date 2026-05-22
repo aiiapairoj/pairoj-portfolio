@@ -7,7 +7,7 @@ import { buildBreadcrumbSchema, buildItemListSchema } from "@/lib/schema";
 export const metadata = buildMetadata({
   title: "โปรเจกต์โอเพนซอร์สทั้งหมดของไพโรจน์",
   description:
-    "รวมโปรเจกต์โอเพนซอร์สทั้งหมด 29 รายการจาก GitHub aiiapairoj — เว็บแอป PHP, เครื่องมือ AI Automation, security checklist และอื่น ๆ",
+    "รวมโปรเจกต์โอเพนซอร์ส 29 รายการจาก GitHub aiiapairoj — เว็บแอป PHP, เครื่องมือ AI Automation, security checklist และอื่น ๆ",
   path: "/projects/",
 });
 
