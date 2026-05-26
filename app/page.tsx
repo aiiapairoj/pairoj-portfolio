@@ -53,7 +53,7 @@ export default function HomePage() {
       </section>
 
       <section aria-labelledby="about-quick" className="py-12 border-t border-neutral-200 dark:border-neutral-800">
-        <h2 id="about-quick" className="text-2xl font-bold">ผมทำอะไรบ้าง?</h2>
+        <h2 id="about-quick" className="text-2xl font-bold">ไพโรจน์ทำอะไรบ้าง?</h2>
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 prose-th">
           <article>
             <h3>พัฒนาเว็บแอป PHP/MySQL</h3>
